@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="Window" x:Key="MainWindow">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Loading}" Value="True">
+                <Setter Property="Cursor" Value="Wait"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Loading}" Value="False">
+                <Setter Property="Cursor" Value="Arrow"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>
