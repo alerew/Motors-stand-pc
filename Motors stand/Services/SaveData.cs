@@ -22,7 +22,9 @@ namespace Motors_stand.Services
         public void AddData(Characteristics c, int period = 1000)
         {
             if (c.Motor == true)
+            {
                 ListCharacteristics.Add(c.Clone(period));
+            }
         }
         public void Clear()
         {

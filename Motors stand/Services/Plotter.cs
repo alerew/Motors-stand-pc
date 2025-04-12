@@ -156,12 +156,16 @@ namespace Motors_stand.Services
             TimeAxis.TicklineColor = Black;
             TimeAxis.TitleColor = Black;
             TimeAxis.Title = "Time";
+            TimeAxis.FontSize = 18;
+            TimeAxis.TitleFontSize = 20;
 
             ValueAxis.AxislineColor = Black;
             ValueAxis.TextColor = Black;
             ValueAxis.TicklineColor = Black;
             ValueAxis.TitleColor = Black;
             ValueAxis.Title = "Value";
+            ValueAxis.FontSize = 18;
+            ValueAxis.TitleFontSize = 20;
 
             legend.LegendFontSize = 24;
             legend.LegendBackground = White;
@@ -184,12 +188,16 @@ namespace Motors_stand.Services
             TimeAxis.TicklineColor = White;
             TimeAxis.TitleColor = White;
             TimeAxis.Title = "Время";
+            TimeAxis.FontSize = double.NaN;
+            TimeAxis.TitleFontSize = double.NaN;
 
             ValueAxis.AxislineColor = White;
             ValueAxis.TextColor = White;
             ValueAxis.TicklineColor = White;
             ValueAxis.TitleColor = White;
             ValueAxis.Title = "Значение";
+            ValueAxis.FontSize = double.NaN;
+            ValueAxis.TitleFontSize = double.NaN;
 
             legend.LegendFontSize = double.NaN;
             legend.LegendBackground = OxyColor.Parse("#20155E");
