@@ -82,7 +82,7 @@
             <Button Content="{Binding Volume}" Style="{StaticResource value}" Command="{Binding VisibleCommand}" CommandParameter="Volume"/>
             <Button Content="Настройки" Style="{StaticResource btn}">
                 <Button.Command>
-                    <cmd:SettingsComand/>
+                    <cmd:SettingsCommand/>
                 </Button.Command>
             </Button>
             <Button Content="Сохранить измерения" Style="{StaticResource btn}" Command="{Binding SaveCommand}"/>

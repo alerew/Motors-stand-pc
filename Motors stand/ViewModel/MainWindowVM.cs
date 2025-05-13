@@ -99,6 +99,7 @@ namespace Motors_stand.ViewModel
             {
                 //parser.MotorValue = value;
                 CheckConnection(parser.SetMotorValue(value));
+                Set();
             }
         }
         #endregion

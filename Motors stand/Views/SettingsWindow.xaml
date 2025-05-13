@@ -26,7 +26,7 @@
             <TextBox Text="{Binding SensorsInterval}" Grid.Column="1" Height="30" VerticalAlignment="Top" Margin="10,50,10,0"/>
 
             <Label Content="Период отправки данных" Foreground="White" Height="30" VerticalAlignment="Top" Margin="10,90,0,0"/>
-            <TextBox Text="{Binding SensorsInterval}" Grid.Column="1" Height="30" VerticalAlignment="Top" Margin="10,90,10,0"/>
+            <TextBox Text="{Binding SendInterval}" Grid.Column="1" Height="30" VerticalAlignment="Top" Margin="10,90,10,0"/>
 
 
             <Label Content="Период обновления LCD" Foreground="White" Height="30" VerticalAlignment="Top" Margin="10,130,0,0"/>

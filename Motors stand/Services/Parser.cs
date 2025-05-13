@@ -89,7 +89,7 @@ namespace Motors_stand.Services
                 Message = Serial.ReadLine();
                 return true;
             }
-            catch (TimeoutException) { return false; }
+            catch { return false; }
         }
         public bool Write(string str)
         {

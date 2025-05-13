@@ -9,7 +9,7 @@ using Motors_stand.ViewModel;
 
 namespace Motors_stand.Infrastructure.Commands
 {
-    class SettingsComand : BaseCommand
+    class SettingsCommand : BaseCommand
     {
         private SettingsWindow Window;
         public override bool CanExecute(object parameter) => Window == null;
